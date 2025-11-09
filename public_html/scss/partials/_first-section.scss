@@ -1,0 +1,24 @@
+.first-section{
+    background-size: cover !important;
+    background-position: center center, center center !important;
+    background-repeat: no-repeat no-repeat !important;
+    min-height:100dvh;
+    padding:25.2rem 53.2rem;
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    .first-section-title{
+        font-size: 60px;
+        color:#fff;
+    }
+    @media (max-width: 480px) {
+        background-size: auto 100%, auto 100%;
+        background-position: center top, center top;
+        padding: 10rem 2rem;
+        .first-section-title {
+            font-size: 28px;
+        }
+    }
+}

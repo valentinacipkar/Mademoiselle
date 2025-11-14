@@ -12184,4 +12184,42 @@ header .navbar-nav .nav-item .nav-link:hover {
   }
 }
 
+.trends .trends-title {
+  text-spacing: 10%;
+  padding: 6.7rem 0 2.8rem;
+}
+.trends .trends-line {
+  display: block;
+  width: 95px;
+  height: 2px;
+  background-color: #ECD9D9;
+  margin-left: 0;
+  margin-bottom: 4.1rem;
+}
+.trends .trends-group {
+  margin-bottom: 12rem;
+}
+@media (min-width: 992px) {
+  .trends .trends-group {
+    margin-bottom: 0rem;
+  }
+}
+.trends .trends-group .trends-article {
+  position: relative;
+  overflow: visible;
+}
+.trends .trends-group .trends-article img {
+  width: 100%;
+  display: block;
+}
+.trends .trends-group .trends-article .trends-info {
+  position: absolute;
+  left: 50%;
+  bottom: -77px;
+  transform: translateX(-50%);
+  background: white;
+  padding: 27px;
+  width: 90%;
+}
+
 /*# sourceMappingURL=theme.css.map */

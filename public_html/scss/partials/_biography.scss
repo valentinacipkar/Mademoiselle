@@ -1,0 +1,61 @@
+$dot-color: #D0B6B6;
+$line-color: #ECD9D9;
+
+.biography{
+    .biography-title{
+        padding-top:12.7rem;
+        padding-bottom: 2.8rem;
+    }
+    .biography-line{
+        width: 95px;
+        height: 2px;
+        margin-bottom:4.7rem;
+        margin-left: 0;
+        display: block;
+        background-color: $line-color;
+    }
+    .biography-info{
+        padding:8.7rem 9.5rem 8.7rem 9.4rem;
+        border: 2px solid #ECD9D9;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        row{
+
+            margin:0;
+            img{
+                padding:8.7rem 9.5rem 8.7rem 9.5rem;
+                width:100%;
+                display: block;
+            }
+            .biography-card{
+                .biography-name{
+                    font-weight:400 !important;
+                    font-size:36px !important;
+                    font-family: $lato !important;
+                    line-height:46px;
+                }
+                .biography-description{
+                    margin-bottom: 2.7rem;
+                }
+                //.bio-carousel {
+                //position: relative !important;
+                //.dots {
+                //position: absolute;
+                //bottom: 0;
+                //left: -50px;
+                //.dot {
+                // display: inline-block;
+                // width: 1.84rem;
+                //height: 0.6rem;
+                // background-color: $dot-color;
+                // cursor: pointer;
+                // margin-left: 1.84rem;
+                //}
+                //}
+
+                //}
+            }
+        }
+    }
+}
+
+

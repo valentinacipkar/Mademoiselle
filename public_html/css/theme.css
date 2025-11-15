@@ -12281,4 +12281,39 @@ header .navbar-nav .nav-item .nav-link:hover {
   line-height: 24px !important;
 }
 
+.biography .biography-title {
+  padding-top: 12.7rem;
+  padding-bottom: 2.8rem;
+}
+.biography .biography-line {
+  width: 95px;
+  height: 2px;
+  margin-bottom: 4.7rem;
+  margin-left: 0;
+  display: block;
+  background-color: #ECD9D9;
+}
+.biography .biography-info {
+  padding: 8.7rem 9.5rem 8.7rem 9.4rem;
+  border: 2px solid #ECD9D9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.biography .biography-info row {
+  margin: 0;
+}
+.biography .biography-info row img {
+  padding: 8.7rem 9.5rem 8.7rem 9.5rem;
+  width: 100%;
+  display: block;
+}
+.biography .biography-info row .biography-card .biography-name {
+  font-weight: 400 !important;
+  font-size: 36px !important;
+  font-family: "Lato", sans-serif !important;
+  line-height: 46px;
+}
+.biography .biography-info row .biography-card .biography-description {
+  margin-bottom: 2.7rem;
+}
+
 /*# sourceMappingURL=theme.css.map */

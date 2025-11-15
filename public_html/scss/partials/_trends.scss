@@ -14,10 +14,7 @@ $line-color: #ECD9D9;
         margin-bottom: 4.1rem;
     }
     .trends-group{
-        margin-bottom: 12rem;
-        @media(min-width:992px){
-            margin-bottom:0rem;
-        }
+        margin-bottom: 12.7rem;
     .trends-article{
         position:relative;
         overflow: visible;
@@ -33,6 +30,19 @@ $line-color: #ECD9D9;
             background: white;
             padding: 27px;
             width: 90%;
+            text-align: center;
+            p{
+                font-style: italic;
+                font-weight: 500 !important;
+                font-size:14px !important;
+                line-height: 46px !important;
+                font-family:$playfair !important;
+            }
+            h4{
+                font-size: 16px !important;
+                letter-spacing: 10%;
+                line-height: 24px !important;
+            }
         }
     }
     }

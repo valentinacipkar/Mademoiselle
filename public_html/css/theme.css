@@ -12197,12 +12197,7 @@ header .navbar-nav .nav-item .nav-link:hover {
   margin-bottom: 4.1rem;
 }
 .trends .trends-group {
-  margin-bottom: 12rem;
-}
-@media (min-width: 992px) {
-  .trends .trends-group {
-    margin-bottom: 0rem;
-  }
+  margin-bottom: 12.7rem;
 }
 .trends .trends-group .trends-article {
   position: relative;
@@ -12220,6 +12215,70 @@ header .navbar-nav .nav-item .nav-link:hover {
   background: white;
   padding: 27px;
   width: 90%;
+  text-align: center;
+}
+.trends .trends-group .trends-article .trends-info p {
+  font-style: italic;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 46px !important;
+  font-family: "Playfair Display", serif !important;
+}
+.trends .trends-group .trends-article .trends-info h4, .trends .trends-group .trends-article .trends-info .h4 {
+  font-size: 16px !important;
+  letter-spacing: 10%;
+  line-height: 24px !important;
+}
+
+.services .services-title {
+  text-spacing: 10%;
+  padding-bottom: 2.8rem;
+}
+.services .services-line {
+  display: block;
+  width: 95px;
+  height: 2px;
+  background-color: #ECD9D9;
+  margin-left: 0;
+  margin-bottom: 4.6rem;
+}
+.services .services-group {
+  background-color: #F5F5F5;
+}
+.services .services-group img {
+  width: 100%;
+  display: block;
+  align-items: stretch;
+}
+@media (max-width: 992px) {
+  .services .services-group img {
+    margin-bottom: 0.3rem;
+  }
+}
+.services .services-group .services-article {
+  padding: 16.2rem 8.2rem 16.2rem 7.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.2rem;
+}
+.services .services-group .services-article .services-group-title {
+  font-family: "Lato", sans-serif !important;
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+@media (max-width: 992px) {
+  .services .services-group .services-article .services-group-title {
+    font-size: 2.2rem;
+  }
+}
+.services .services-group .services-article .services-button {
+  padding: 1.6rem 3rem 1.5rem 3rem;
+  margin: 0;
+  background-color: #F5F5F5;
+  width: 162px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px !important;
 }
 
 /*# sourceMappingURL=theme.css.map */

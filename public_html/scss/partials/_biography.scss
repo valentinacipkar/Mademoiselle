@@ -2,6 +2,7 @@ $dot-color: #D0B6B6;
 $line-color: #ECD9D9;
 
 .biography{
+    margin-bottom: 16rem;
     .biography-title{
         padding-top:12.7rem;
         padding-bottom: 2.8rem;
@@ -15,7 +16,7 @@ $line-color: #ECD9D9;
         background-color: $line-color;
     }
     .biography-info{
-        padding:4rem 4rem 4rem 4rem;
+        padding:4rem 5rem 4rem 5rem;
         @media (min-width: 992px) {
                     padding: 8.7rem 9.5rem 8.7rem 9.5rem !important;
                 }

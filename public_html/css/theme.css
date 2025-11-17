@@ -12156,6 +12156,9 @@ header .navbar-nav .nav-item .nav-link:hover {
   text-decoration-color: #ECD9D9;
   text-decoration-tickness: 1px;
 }
+header .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+}
 
 .first-section {
   background-size: cover !important;
@@ -12282,6 +12285,9 @@ header .navbar-nav .nav-item .nav-link:hover {
   line-height: 24px !important;
 }
 
+.biography {
+  margin-bottom: 16rem;
+}
 .biography .biography-title {
   padding-top: 12.7rem;
   padding-bottom: 2.8rem;
@@ -12295,7 +12301,7 @@ header .navbar-nav .nav-item .nav-link:hover {
   background-color: #ECD9D9;
 }
 .biography .biography-info {
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 4rem 5rem 4rem 5rem;
   border: 2px solid #ECD9D9;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
@@ -12322,7 +12328,7 @@ header .navbar-nav .nav-item .nav-link:hover {
 }
 
 footer {
-  padding: 10.4rem 0 3.8rem;
+  margin-bottom: 38px;
 }
 footer .social {
   margin-bottom: 1.6rem;
@@ -12331,7 +12337,7 @@ footer .social .social-icon {
   color: #ECD9D9 !important;
   text-decoration: none;
   font-size: 2rem;
-  margin-left: 10px;
+  margin: 0 10px;
 }
 footer .copyright {
   color: #586C88 !important;

@@ -2,13 +2,13 @@ $copyright-color:#586C88;
 $social-color:#ECD9D9;
 
 footer{
-    padding:10.4rem 0 3.8rem;
+   margin-bottom:38px;
     .social{
         .social-icon{
             color:$social-color !important;
             text-decoration:none;
             font-size:2rem;
-            margin-left:10px;
+            margin:0 10px;
         }
         margin-bottom: 1.6rem;
     }

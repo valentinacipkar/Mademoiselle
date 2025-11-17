@@ -15,16 +15,22 @@ $line-color: #ECD9D9;
         background-color: $line-color;
     }
     .biography-info{
-        padding:8.7rem 9.5rem 8.7rem 9.4rem;
+        padding:4rem 4rem 4rem 4rem;
+        @media (min-width: 992px) {
+                    padding: 8.7rem 9.5rem 8.7rem 9.5rem !important;
+                }
         border: 2px solid #ECD9D9;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        row{
+        .row{
 
             margin:0;
             img{
-                padding:8.7rem 9.5rem 8.7rem 9.5rem;
+                //padding:8.7rem 9.5rem 8.7rem 9.5rem;
                 width:100%;
                 display: block;
+                //@media (min-width: 992px) {
+                    //padding: 8.7rem 9.5rem 8.7rem 9.5rem;
+                //}
             }
             .biography-card{
                 .biography-name{

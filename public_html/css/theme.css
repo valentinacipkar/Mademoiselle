@@ -12168,6 +12168,7 @@ header .navbar-nav .nav-item .nav-link:hover {
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
+  margin-bottom: 9.7rem;
 }
 .first-section .first-section-title {
   font-size: 60px;
@@ -12186,7 +12187,7 @@ header .navbar-nav .nav-item .nav-link:hover {
 
 .trends .trends-title {
   text-spacing: 10%;
-  padding: 6.7rem 0 2.8rem;
+  padding-bottom: 2.8rem;
 }
 .trends .trends-line {
   display: block;

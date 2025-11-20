@@ -1,0 +1,25 @@
+
+.pagination-slider{
+    display: flex !important;
+    gap: 12px;
+    justify-content: center !important;
+    .page-link{
+        display:inline-block !important;
+        text-align: center !important;
+        line-height: 4.6rem !important;
+        font-weight: 700 !important;
+        font-size: 2rem;
+        background: none !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 6px !important;
+        cursor: pointer;
+        .page-link .active {
+            font-weight: bold !important;
+        }
+    }
+}

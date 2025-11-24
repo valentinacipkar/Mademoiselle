@@ -2112,16 +2112,16 @@ progress {
 }
 
 .col-form-label {
-  padding-top: calc(0.375rem + var(--bs-border-width));
-  padding-bottom: calc(0.375rem + var(--bs-border-width));
+  padding-top: calc(0.375rem + none);
+  padding-bottom: calc(0.375rem + none);
   margin-bottom: 0;
   font-size: inherit;
   line-height: 1.5;
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + var(--bs-border-width));
-  padding-bottom: calc(0.5rem + var(--bs-border-width));
+  padding-top: calc(0.5rem + none);
+  padding-bottom: calc(0.5rem + none);
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -2131,8 +2131,8 @@ progress {
 }
 
 .col-form-label-sm {
-  padding-top: calc(0.25rem + var(--bs-border-width));
-  padding-bottom: calc(0.25rem + var(--bs-border-width));
+  padding-top: calc(0.25rem + none);
+  padding-bottom: calc(0.25rem + none);
   font-size: calc(1.265rem + 0.18vw);
 }
 @media (min-width: 1200px) {
@@ -2152,13 +2152,13 @@ progress {
   width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: calc(1.285rem + 0.42vw);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: var(--bs-body-color);
   appearance: none;
   background-color: var(--bs-body-bg);
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: none solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2195,7 +2195,7 @@ progress {
   padding: 0;
 }
 .form-control::placeholder {
-  color: var(--bs-secondary-color);
+  color: #000;
   opacity: 1;
 }
 .form-control:disabled {
@@ -2212,7 +2212,7 @@ progress {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
-  border-inline-end-width: var(--bs-border-width);
+  border-inline-end-width: none;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2234,7 +2234,7 @@ progress {
   color: var(--bs-body-color);
   background-color: transparent;
   border: solid transparent;
-  border-width: var(--bs-border-width) 0;
+  border-width: none 0;
 }
 .form-control-plaintext:focus {
   outline: 0;
@@ -2245,7 +2245,7 @@ progress {
 }
 
 .form-control-sm {
-  min-height: calc(1.5em + 0.5rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 0.5rem + calc(none * 2));
   padding: 0.25rem 0.5rem;
   font-size: calc(1.265rem + 0.18vw);
   border-radius: var(--bs-border-radius-sm);
@@ -2262,7 +2262,7 @@ progress {
 }
 
 .form-control-lg {
-  min-height: calc(1.5em + 1rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 1rem + calc(none * 2));
   padding: 0.5rem 1rem;
   font-size: calc(1.325rem + 0.9vw);
   border-radius: var(--bs-border-radius-lg);
@@ -2279,18 +2279,18 @@ progress {
 }
 
 textarea.form-control {
-  min-height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 0.75rem + calc(none * 2));
 }
 textarea.form-control-sm {
-  min-height: calc(1.5em + 0.5rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 0.5rem + calc(none * 2));
 }
 textarea.form-control-lg {
-  min-height: calc(1.5em + 1rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(1.5em + 1rem + calc(none * 2));
 }
 
 .form-control-color {
   width: 3rem;
-  height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+  height: calc(1.5em + 0.75rem + calc(none * 2));
   padding: 0.375rem;
 }
 .form-control-color:not(:disabled):not([readonly]) {
@@ -2305,10 +2305,10 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius);
 }
 .form-control-color.form-control-sm {
-  height: calc(1.5em + 0.5rem + calc(var(--bs-border-width) * 2));
+  height: calc(1.5em + 0.5rem + calc(none * 2));
 }
 .form-control-color.form-control-lg {
-  height: calc(1.5em + 1rem + calc(var(--bs-border-width) * 2));
+  height: calc(1.5em + 1rem + calc(none * 2));
 }
 
 .form-select {
@@ -2317,7 +2317,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
   font-size: calc(1.285rem + 0.42vw);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: var(--bs-body-color);
   appearance: none;
@@ -2326,7 +2326,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: none solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2605,8 +2605,8 @@ textarea.form-control-lg {
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext,
 .form-floating > .form-select {
-  height: calc(3.5rem + calc(var(--bs-border-width) * 2));
-  min-height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+  height: calc(3.5rem + calc(none * 2));
+  min-height: calc(3.5rem + calc(none * 2));
   line-height: 1.25;
 }
 .form-floating > label {
@@ -2621,7 +2621,7 @@ textarea.form-control-lg {
   text-overflow: ellipsis;
   white-space: nowrap;
   pointer-events: none;
-  border: var(--bs-border-width) solid transparent;
+  border: none solid transparent;
   transform-origin: 0 0;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
@@ -2677,7 +2677,7 @@ textarea.form-control-lg {
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
 .form-floating > .form-control-plaintext ~ label {
-  border-width: var(--bs-border-width) 0;
+  border-width: none 0;
 }
 .form-floating > :disabled ~ label,
 .form-floating > .form-control:disabled ~ label {
@@ -2721,13 +2721,13 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.375rem 0.75rem;
   font-size: calc(1.285rem + 0.42vw);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: var(--bs-body-color);
   text-align: center;
   white-space: nowrap;
   background-color: var(--bs-tertiary-bg);
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: none solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
 }
 @media (min-width: 1200px) {
@@ -2790,7 +2790,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  margin-left: calc(var(--bs-border-width) * -1);
+  margin-left: calc(none * -1);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -12468,6 +12468,77 @@ footer .copyright {
   line-height: 24px !important;
   font-size: 14px !important;
   margin-left: 1.2rem !important;
+}
+
+.contact-form-section .contact {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  padding: 10.8rem 0 10.1rem;
+  justify-content: space-between;
+}
+@media (min-width: 992px) {
+  .contact-form-section .contact .contact-form-data {
+    padding-right: 4rem;
+  }
+}
+.contact-form-section .contact .contact-form-data .contact-form-title {
+  font-size: 30px;
+  letter-spacing: 10%;
+  margin-bottom: 3.4rem;
+}
+.contact-form-section .contact .contact-form-data .contact-form .form-group {
+  text-align: left !important;
+}
+.contact-form-section .contact .contact-form-data .contact-form .form-group .form-control {
+  font-size: 14px;
+  line-height: 28px !important;
+  color: #000 !important;
+  background-color: #F5F5F5;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1.4rem;
+  padding-left: 20px;
+}
+.contact-form-section .contact .contact-form-data .contact-form .form-group .contact-button {
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-top: 0.8rem;
+}
+@media (max-width: 992px) {
+  .contact-form-section .contact .contact-form-data .contact-form .form-group .contact-button {
+    margin-bottom: 3rem !important;
+  }
+}
+.contact-form-section .contact .contact-map iframe {
+  width: 100%;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .contact-form-section .contact .contact-map iframe {
+    width: 546px !important;
+    height: 509px !important;
+    display: block !important;
+  }
+}
+
+.contact-info-section {
+  background-color: #fff;
+  margin-bottom: 10.5rem !important;
+}
+.contact-info-section .contact-info-desc {
+  text-align: center;
+  background-color: #ECD9D9;
+}
+.contact-info-section .contact-info-desc .contact-buttons {
+  padding: 7.4rem 0 !important;
+}
+.contact-info-section .contact-info-desc .contact-buttons .contact-info-data {
+  line-height: 2.4rem !important;
+  font-size: 1.4rem !important;
 }
 
 /*# sourceMappingURL=theme.css.map */

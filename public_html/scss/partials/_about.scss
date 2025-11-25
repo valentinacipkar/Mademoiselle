@@ -22,13 +22,13 @@ $icon-color: #212121;
     .beauty-search{
         .search-wrapper {
             position: relative;
-            width: 356px; /* širina inputa */
+            width: 356px; 
             margin-bottom: 3.8rem !important;
         }
 
         .search-input {
             width: 100%;
-            padding: 1.5rem 28.7rem 1.5rem 2rem; /* desni padding ostavlja prostor za ikonu */
+            padding: 1.5rem 28.7rem 1.5rem 2rem; 
             border: 1px solid #000;
             outline: none;
             font-family:$playfair !important;
@@ -44,12 +44,12 @@ $icon-color: #212121;
 
         .search-icon {
             position: absolute;
-            right: 1.5rem !important;   /* udaljenost od desne ivice inputa */
+            right: 1.5rem !important;   
             top: 50%;
             transform: translateY(-50%);
-            color: $icon-color;      /* boja ikone */
+            color: $icon-color;     
             font-size: 1rem;
-            pointer-events: none; /* klik kroz ikonu ne blokira unos */
+            pointer-events: none; 
         }
     }
 }

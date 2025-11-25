@@ -12181,6 +12181,7 @@ header .navbar-nav .nav-item .nav-link.active {
   font-weight: 500 !important;
   line-height: 24px !important;
   font-size: 14px !important;
+  text-decoration: none !important;
 }
 .first-section .first-section-title {
   font-size: 60px;
@@ -12595,12 +12596,12 @@ footer .copyright {
 }
 .about-beauty .beauty-search .search-wrapper {
   position: relative;
-  width: 356px; /* širina inputa */
+  width: 356px;
   margin-bottom: 3.8rem !important;
 }
 .about-beauty .beauty-search .search-input {
   width: 100%;
-  padding: 1.5rem 28.7rem 1.5rem 2rem; /* desni padding ostavlja prostor za ikonu */
+  padding: 1.5rem 28.7rem 1.5rem 2rem;
   border: 1px solid #000;
   outline: none;
   font-family: "Playfair Display", serif !important;
@@ -12615,12 +12616,12 @@ footer .copyright {
 }
 .about-beauty .beauty-search .search-icon {
   position: absolute;
-  right: 1.5rem !important; /* udaljenost od desne ivice inputa */
+  right: 1.5rem !important;
   top: 50%;
   transform: translateY(-50%);
-  color: #212121; /* boja ikone */
+  color: #212121;
   font-size: 1rem;
-  pointer-events: none; /* klik kroz ikonu ne blokira unos */
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=theme.css.map */

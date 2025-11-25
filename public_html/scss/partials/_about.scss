@@ -1,0 +1,55 @@
+$icon-color: #212121;
+.about-beauty{
+    .about-beauty-article{
+        .about-beauty-title{
+            font-family: $lato !important;
+            font-weight:400 !important;
+            font-size: 44px !important;
+            line-height: 53px !important;
+            margin-bottom: 1.9rem !important;
+        }
+        figure{
+            img{
+                width:100%;
+                display: block;
+            }
+        }
+        .about-beauty-description{
+            font-size:18px !important;
+            line-height:26px !important;
+        }
+    }
+    .beauty-search{
+        .search-wrapper {
+            position: relative;
+            width: 356px; /* širina inputa */
+            margin-bottom: 3.8rem !important;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1.5rem 28.7rem 1.5rem 2rem; /* desni padding ostavlja prostor za ikonu */
+            border: 1px solid #000;
+            outline: none;
+            font-family:$playfair !important;
+            font-weight: 500 !important;
+            font-style:italic !important;
+            font-size: 14px !important;
+            line-height:20px !important;
+            color:#000 !important;
+            .search-input:placeholder{
+                color:#000 !important; 
+            }
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 1.5rem !important;   /* udaljenost od desne ivice inputa */
+            top: 50%;
+            transform: translateY(-50%);
+            color: $icon-color;      /* boja ikone */
+            font-size: 1rem;
+            pointer-events: none; /* klik kroz ikonu ne blokira unos */
+        }
+    }
+}

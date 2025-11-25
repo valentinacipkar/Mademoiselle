@@ -3,6 +3,7 @@ $bg-color:#F5F5F5;
 $button-color: #F5F5F5;
 
 .services{
+    margin-bottom:11.4rem;
     .services-title{
         text-spacing: 10%;
         padding-bottom: 2.8rem;
@@ -46,6 +47,8 @@ $button-color: #F5F5F5;
                 font-size: 14px;
                 font-weight: 500;
                 line-height: 24px !important;
+                border:1px solid #000 !important;
+                text-decoration: none !important;
             }
 
         }

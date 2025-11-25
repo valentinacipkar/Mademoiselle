@@ -10,9 +10,21 @@
     justify-content: center !important;
     text-align: center !important;
     margin-bottom: 9.7rem;
+    flex-direction: column !important;
+    .error-container{
+        .error-button{
+            background-color:transparent !important;
+            color:#fff;
+            border:1px solid #fff;
+            font-weight:500 !important;
+            line-height: 24px !important;
+            font-size: 14px !important;
+        }
+    }
     .first-section-title{
         font-size: 60px;
         color:#fff;
+        margin-bottom: 7.5rem !important;
     }
     @media (max-width: 480px) {
         background-size: auto 100%, auto 100%;

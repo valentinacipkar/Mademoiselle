@@ -1,4 +1,5 @@
-$dot-color: #D0B6B6;
+$active-dot-color:#D0B6B6;
+$dot-color:rgba(208, 182, 182, 0.4);
 $line-color: #ECD9D9;
 
 .biography{
@@ -18,22 +19,19 @@ $line-color: #ECD9D9;
     .biography-info{
         padding:4rem 5rem 4rem 5rem;
         @media (min-width: 992px) {
-                    padding: 8.7rem 9.5rem 8.7rem 9.5rem !important;
-                }
+            padding: 8.7rem 9.5rem 8.7rem 9.5rem !important;
+        }
         border: 2px solid #ECD9D9;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         .row{
 
             margin:0;
             img{
-                //padding:8.7rem 9.5rem 8.7rem 9.5rem;
                 width:100%;
                 display: block;
-                //@media (min-width: 992px) {
-                    //padding: 8.7rem 9.5rem 8.7rem 9.5rem;
-                //}
             }
             .biography-card{
+                position:relative;
                 .biography-name{
                     font-weight:400 !important;
                     font-size:36px !important;
@@ -43,23 +41,29 @@ $line-color: #ECD9D9;
                 .biography-description{
                     margin-bottom: 2.7rem;
                 }
-                //.bio-carousel {
-                //position: relative !important;
-                //.dots {
-                //position: absolute;
-                //bottom: 0;
-                //left: -50px;
-                //.dot {
-                // display: inline-block;
-                // width: 1.84rem;
-                //height: 0.6rem;
-                // background-color: $dot-color;
-                // cursor: pointer;
-                // margin-left: 1.84rem;
-                //}
-                //}
+                .owl-dots{
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+                    display: flex;
+                    gap: 5px;
 
-                //}
+                    .owl-dot{
+                        .active span {
+                                background-color: $active-dot-color !important;
+                            }
+                        span {
+                            background-color:$dot-color !important;
+                            width: 18.4px !important;
+                            height: 6px !important;
+                            display: block;
+                            border-radius: 0px;
+                            margin-left: 5px !important;
+                            transition: background 0.3s;
+                            
+                        }
+                    }
+                }
             }
         }
     }

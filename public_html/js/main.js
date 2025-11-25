@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     //ANIMATION
     function animation() {
         let  windowHeight = $(window).height();
@@ -20,7 +20,7 @@ $(document).ready(function(){
         animation();
     });
     animation();
-    
+
     //validate form
 
     if ($('.contact-form').length > 0) {
@@ -67,7 +67,19 @@ $(document).ready(function(){
             }
         });
     }
-    
-    
+
+    if ($('.team-slider').length > 0) {
+        $('.team-slider').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            margin: 20,
+            autoplay: false,
+            responsive: {
+                0: {items: 1},
+                768: {items: 1}
+            }
+        })
+    }
 });
 

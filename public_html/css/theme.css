@@ -99,11 +99,11 @@ html {
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #0d6efd;
-  --bs-link-color-rgb: 13, 110, 253;
+  --bs-link-color: #000;
+  --bs-link-color-rgb: 0, 0, 0;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: rgb(10.4, 88, 202.4);
-  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-link-hover-color: black;
+  --bs-link-hover-color-rgb: 0, 0, 0;
   --bs-code-color: #d63384;
   --bs-highlight-color: #000;
   --bs-highlight-bg: rgb(255, 242.6, 205.4);
@@ -3358,7 +3358,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-focus-shadow-rgb: 38, 38, 38;
   text-decoration: underline;
 }
 .btn-link:focus-visible {
@@ -12172,10 +12172,20 @@ header .navbar-nav .nav-item .nav-link.active {
   justify-content: center !important;
   text-align: center !important;
   margin-bottom: 9.7rem;
+  flex-direction: column !important;
+}
+.first-section .error-container .error-button {
+  background-color: transparent !important;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  font-size: 14px !important;
 }
 .first-section .first-section-title {
   font-size: 60px;
   color: #fff;
+  margin-bottom: 7.5rem !important;
 }
 @media (max-width: 480px) {
   .first-section {
@@ -12234,6 +12244,9 @@ header .navbar-nav .nav-item .nav-link.active {
   line-height: 24px !important;
 }
 
+.services {
+  margin-bottom: 11.4rem;
+}
 .services .services-title {
   text-spacing: 10%;
   padding-bottom: 2.8rem;
@@ -12283,6 +12296,8 @@ header .navbar-nav .nav-item .nav-link.active {
   font-size: 14px;
   font-weight: 500;
   line-height: 24px !important;
+  border: 1px solid #000 !important;
+  text-decoration: none !important;
 }
 
 .biography {
@@ -12317,6 +12332,9 @@ header .navbar-nav .nav-item .nav-link.active {
   width: 100%;
   display: block;
 }
+.biography .biography-info .row .biography-card {
+  position: relative;
+}
 .biography .biography-info .row .biography-card .biography-name {
   font-weight: 400 !important;
   font-size: 36px !important;
@@ -12325,6 +12343,25 @@ header .navbar-nav .nav-item .nav-link.active {
 }
 .biography .biography-info .row .biography-card .biography-description {
   margin-bottom: 2.7rem;
+}
+.biography .biography-info .row .biography-card .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
+}
+.biography .biography-info .row .biography-card .owl-dots .owl-dot .active span {
+  background-color: #D0B6B6 !important;
+}
+.biography .biography-info .row .biography-card .owl-dots .owl-dot span {
+  background-color: rgba(208, 182, 182, 0.4) !important;
+  width: 18.4px !important;
+  height: 6px !important;
+  display: block;
+  border-radius: 0px;
+  margin-left: 5px !important;
+  transition: background 0.3s;
 }
 
 footer {
